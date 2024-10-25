@@ -622,7 +622,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "esp32-tokio-boilerplate"
+name = "esp32-rs-mqtt-displays"
 version = "0.1.0"
 dependencies = [
  "anyhow",

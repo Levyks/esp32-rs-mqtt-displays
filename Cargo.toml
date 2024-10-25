@@ -1,11 +1,11 @@
 [package]
-name = "esp32-tokio-boilerplate"
+name = "esp32-rs-mqtt-displays"
 version = "0.1.0"
 authors = ["Levy Barbosa <marcio.levy20@gmail.com>"]
 edition = "2021"
 
 [[bin]]
-name = "esp32-tokio-boilerplate"
+name = "esp32-rs-mqtt-displays"
 harness = false # do not use the built in cargo test harness -> resolve rust-analyzer errors
 
 [profile.release]
