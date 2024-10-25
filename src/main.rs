@@ -37,6 +37,7 @@ fn main() -> anyhow::Result<()> {
     Ok(())
 }
 
+// We delay after printing the error to make sure we can read it in the serial monitor before it restarts
 fn print_error_and_delay<T: Debug>(err: T) -> T {
     log::error!("{err:?}");
     std::thread::sleep(std::time::Duration::from_secs(3));
