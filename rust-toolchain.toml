@@ -1,0 +1,7 @@
+[toolchain]
+channel = "esp"
+targets = ["xtensa-esp32-espidf"]
+#targets = ["xtensa-esp32s2-espidf"]
+#targets = ["xtensa-esp32s3-espidf"]
+#targets = ["riscv32imc-esp-espidf"]
+#targets = ["riscv32imac-esp-espidf"]
